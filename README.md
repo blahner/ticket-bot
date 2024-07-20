@@ -3,6 +3,8 @@ Implement your own ticket bot in python.
 ## Overview
 Use this project to create your own ticket bot that sends you an email and text when tickets become available for a given event. I used this code to notify myself of when permits became available to hike Mount St. Helens. Read my blog post for more info.
 
+![Mount St. Helens](images/mt_st_helens_pano.jpg)
+
 ## Setup
 Create your python environment and install the required packages.
 ```
@@ -31,6 +33,7 @@ If you want to get notified of specifically Mount St. Helens permit availability
 ```
 ./run_main.sh
 ```
-Note that ticket bot code is pretty fragile. Even a simple change to the website's html layout can break it. I likely won't keep this project up-to-date with whatever changes recreation.gov makes.
+You will probably want to run this in a 'screen' session and configure your computer to run this script in the background without going to sleep.
+Also note that ticket bot code is pretty fragile. Even a simple change to the website's html layout can break it. I likely won't keep this project up-to-date with whatever changes recreation.gov makes.
 
 In the more likely case you want to get notified of ticket availabiltiy from a different website, you will need to make intensive edits to the main.py file. Read my blog post for an overview of how to get started.
